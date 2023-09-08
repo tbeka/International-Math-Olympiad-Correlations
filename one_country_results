@@ -1,3 +1,6 @@
+#Joining the venues and results tables
+total = pd.merge(venues, results_transposed, left_index=True, right_index=True)
+
 import country_converter as coco
 
 #Function accessing results of one of the countries
